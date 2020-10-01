@@ -6,7 +6,7 @@ export const Container = styled.section`
   flex-direction: center;
   justify-content: center;
   align-items: center;
-  padding: 140px 16px;;
+  padding: 140px 16px 0px;;
   align-items: center;
   width: 100%;
 `;

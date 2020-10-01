@@ -24,7 +24,7 @@ export default function NavBar() {
         <ActiveLink to="/">Início</ActiveLink>
         <ActiveLink to="/sobre">Sobre</ActiveLink>
         <ActiveLink to="/contato">Contato</ActiveLink>
-        <ActiveLink>Loren</ActiveLink>
+        <ActiveLink to="/#">Loren</ActiveLink>
         <button>Baixe Agora</button>
       </NavItems>
     </Container>
