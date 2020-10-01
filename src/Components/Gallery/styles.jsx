@@ -31,7 +31,7 @@ export const Item = styled.div`
 
 export const FullImage = styled.div`
   text-align: center;
-  width: max(330px, 100%);
+  width: max(288px, 100%);
   p {
     font-weight: bold;
     font-size: 1.8rem;
@@ -41,7 +41,7 @@ export const FullImage = styled.div`
     min-height: 185px;
     max-height: 400px;
     width: 70%;
-    min-width: 300px;
+    min-width: 288px;
     object-fit: cover;
     object-position: 0% top;
   }
