@@ -2,9 +2,9 @@ import React from "react";
 import { Container } from "./styles";
 import { FaGooglePlay, FaApple } from "react-icons/fa";
 
-export const GooglePlay= () => {
+export const GooglePlay= ({stroke}) => {
   return (
-    <Container>
+    <Container stroke={stroke}>
       <FaGooglePlay />
       <div>
         <p>Disponivel no</p>
@@ -13,9 +13,9 @@ export const GooglePlay= () => {
     </Container>
   );
 }
-export const AppleStore= () => {
+export const AppleStore= ({stroke}) => {
   return (
-    <Container>
+    <Container stroke={stroke}>
       <FaApple/>
       <div>
         <p>Disponivel na</p>

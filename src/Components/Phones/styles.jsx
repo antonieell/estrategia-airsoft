@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   display: flex;
   flex-shrink: 2;
-  flex-direction: center;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 140px 16px 0px;;
@@ -21,3 +21,9 @@ export const WrapperImages = styled.div`
     height: auto;
   }
 `;
+
+export const IconWrapper = styled.div`
+  display: flex;
+  gap: 16px;
+`;
+
