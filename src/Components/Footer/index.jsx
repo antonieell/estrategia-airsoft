@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, List, ListsWrapper } from "./styles";
+import { FaInstagram, FaFacebookSquare, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -7,30 +8,22 @@ export default function Footer() {
       <h1>Estratégia Airsoft!</h1>
       <ListsWrapper>
         <List>
-          <h2>Titulo 5</h2>
+          <h2>Redes Sociais</h2>
           <ul>
-            <li>Corpo de texto</li>
-            <li>Corpo de texto</li>
-            <li>Corpo de texto</li>
-            <li>Corpo de texto</li>
-          </ul>
-        </List>
-        <List>
-          <h2>Titulo 5</h2>
-          <ul>
-            <li>Corpo de texto</li>
-            <li>Corpo de texto</li>
-            <li>Corpo de texto</li>
-            <li>Corpo de texto</li>
-          </ul>
-        </List>
-        <List>
-          <h2>Titulo 5</h2>
-          <ul>
-            <li>Corpo de texto</li>
-            <li>Corpo de texto</li>
-            <li>Corpo de texto</li>
-            <li>Corpo de texto</li>
+            <li>
+              <FaTwitter />
+              <a href="https://twitter.com/Estrategia_as?s=08">Twitter</a>
+            </li>
+            <li>
+              <FaInstagram />
+              <a href="https://www.instagram.com/estrategia_airsoft/">
+                Instagram
+              </a>
+            </li>
+            <li>
+              <FaFacebookSquare />{" "}
+              <a href="https://www.facebook.com/estrategia.as">Facebook</a>
+            </li>
           </ul>
         </List>
       </ListsWrapper>

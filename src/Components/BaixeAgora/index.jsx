@@ -5,7 +5,7 @@ import {GooglePlay, AppleStore} from "../StoreButtons";
 export default function BaixeAgora() {
   return (
     <Container>
-      <h1>Baixe agora!</h1>
+      <h1>Em breve!</h1>
       <IconWrapper>
        <GooglePlay/>
        <AppleStore/>

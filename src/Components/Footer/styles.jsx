@@ -32,4 +32,9 @@ export const List = styled.div`
   li{
     list-style: none;
   }
+  a{
+    padding: 0 8px;
+    text-decoration: none;
+    color: #fff;
+  }
 `;
