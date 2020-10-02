@@ -30,6 +30,7 @@ export const NavItems = styled.div`
     border-bottom: 1px solid #07d697;
   }
   button{
+    margin: 16px;
     cursor: pointer;
     border: none;
     background-color: #07D697;

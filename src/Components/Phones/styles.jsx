@@ -24,6 +24,12 @@ export const WrapperImages = styled.div`
 
 export const IconWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
+  div{
+    margin: 4px;
+  }
 `;
 

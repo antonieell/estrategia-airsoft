@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "../Pages/Home";
-import Sobre from "../Pages/Sobre";
+//import Sobre from "../Pages/Sobre";
 
 export default function Routes() {
   return (
