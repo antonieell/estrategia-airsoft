@@ -5,6 +5,7 @@ import Gallery from '../Components/Gallery'
 import Operadores from '../Components/Operadores'
 import BaixeAgora from '../Components/BaixeAgora'
 import Footer from '../Components/Footer'
+import FormularioBeta from '../Components/FormularioBeta'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Gallery />
       <Operadores />
       <BaixeAgora />
+      <FormularioBeta/>
       <Footer />
     </>
   );
