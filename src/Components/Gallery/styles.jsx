@@ -26,7 +26,9 @@ export const Item = styled.div`
   text-align: center;
   img {
     width: 100%;
-    height: 300px;
+    max-height: 260px;
+    height: 100%;
+    object-fit: contain;
   }
 `;
 
