@@ -22,9 +22,9 @@ export default function NavBar() {
       </LogoWrapper>
       <NavItems>
         <ActiveLink to="/">Início</ActiveLink>
-        <ActiveLink to="/sobre">Sobre</ActiveLink>
+        {/*<ActiveLink to="/sobre">Sobre</ActiveLink>
         <ActiveLink to="/contato">Contato</ActiveLink>
-        <ActiveLink to="/#">Loren</ActiveLink>
+        <ActiveLink to="/#">Loren</ActiveLink>*/}
         <button>Baixe Agora</button>
       </NavItems>
     </Container>
