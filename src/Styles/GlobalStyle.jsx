@@ -9,6 +9,7 @@ export default createGlobalStyle`
   }
   html {
     font-size: 62.5%;
+    overflow-x: hidden;
     @media (max-width: 1279px){
       font-size: 54%;
     }
