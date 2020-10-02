@@ -22,7 +22,7 @@ export const RowImage = styled.div`
 
 export const Item = styled.div`
   transform: scale(0.9);
-  width: max(100px, 25%);
+  width: max(288px, 25%);
   text-align: center;
   img {
     width: 100%;
