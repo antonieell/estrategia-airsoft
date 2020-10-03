@@ -2,9 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  width: 200px;
+  padding: 8px;
+  gap: 8px;
+  width: 50%;
+  max-width: 200px;
+  min-width: 100px;
   height: 60px;
   background-color: black;
   color: white;
@@ -17,6 +21,7 @@ export const Container = styled.div`
   }
   p {
     font-size: 1.2rem;
+    white-space: nowrap;
   }
 `;
 
