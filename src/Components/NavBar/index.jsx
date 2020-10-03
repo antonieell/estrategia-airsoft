@@ -21,8 +21,8 @@ export default function NavBar() {
         <h1>Estratégia Airsoft</h1>
       </LogoWrapper>
       <NavItems>
-        <ActiveLink to="/">Início</ActiveLink>
-        {/*<ActiveLink to="/sobre">Sobre</ActiveLink>
+        {/*<ActiveLink to="/">Início</ActiveLink>
+        <ActiveLink to="/sobre">Sobre</ActiveLink>
         <ActiveLink to="/contato">Contato</ActiveLink>
         <ActiveLink to="/#">Loren</ActiveLink>*/}
         <button>Em breve</button>
