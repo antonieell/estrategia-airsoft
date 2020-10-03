@@ -18,6 +18,10 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
   }
+  @media(max-width: 480px){
+    padding: 8px;
+    width: 100%;
+  }
 `;
 
 export const IconWrapper = styled.div`
@@ -25,9 +29,7 @@ export const IconWrapper = styled.div`
   gap: 16px;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  div{
-    margin: 8px;
+  @media(max-width: 480px){
   }
 `;
 

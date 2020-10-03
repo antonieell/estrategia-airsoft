@@ -14,7 +14,11 @@ export const Container = styled.header`
     no-repeat padding-box;
 `;
 
-export const LogoWrapper = styled.div``;
+export const LogoWrapper = styled.div`
+  h1{
+    text-align:center;
+  }
+`;
 export const NavItems = styled.div`
   display: flex;
   justify-content: space-between;
