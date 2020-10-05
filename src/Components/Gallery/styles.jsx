@@ -46,6 +46,6 @@ export const FullImage = styled.div`
     width: 70%;
     min-width: 288px;
     object-fit: cover;
-    object-position: 0% top;
+    object-position: 0% 30%;
   }
 `;

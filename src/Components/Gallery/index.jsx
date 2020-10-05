@@ -19,7 +19,7 @@ const Gallery = () => {
           <p>Acompanhe seu desempenho</p>
         </Item>
         <Item>
-          <img src={GenericsImage} alt="Operacoes" />
+          <img src={Operacoes} alt="Operacoes" />
           <p>Fique por dentro das operações</p>
         </Item>
         <Item>
@@ -28,7 +28,7 @@ const Gallery = () => {
         </Item>
       </RowImage>
       <FullImage>
-        <img src={GenericsImage} alt="Imagem Genérica" />
+        <img src={ConhecaOperadores} alt="Imagem Genérica" />
         <p>Conheçam mais operadores</p>
       </FullImage>
     </Container>
