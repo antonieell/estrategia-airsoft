@@ -63,6 +63,21 @@ const Operadores = () => {
           <img src={Generic} alt="Imagem Genérica" />
         </Item>
       </Row>
+      <Row className="revertRow">
+        <Content>
+          <h2>Operações</h2>
+          <h4>Estatística</h4>
+          <p>Crie sua conta e comece a sua competição contra seu pior adversário...
+            Você... Gere estatísticas de equipe e suas operações</p>
+          <h4>Equipamento</h4>
+          <p>Cadastre o seu Loadout e compartilhe com seus amigos.</p>
+          <h4>Suba seu nível</h4>
+          <p>Conquiste novos níveis evolua em combate.</p>
+        </Content>
+        <Item>
+          <img src={Generic} alt="Imagem Genérica" />
+        </Item>
+      </Row>
     </Container>
   );
 };
