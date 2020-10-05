@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, RowImage, Item, FullImage } from "./styles";
-import GenericsImage from "../../assets/generics.png";
 import DesafieSe from "../../assets/desafie-se.jpg"
 import ConvoqueSeusAmigos from "../../assets/convoqueSeusAmigosGallery.jpg"
 import Desempenho from "../../assets/seuDesempenhoGallery.jpg"
+import Operacoes from '../../assets/porDentroDasOperacoes.jpeg'
+import ConhecaOperadores from '../../assets/conhecaOperadores.jpeg'
 
 const Gallery = () => {
   return (
