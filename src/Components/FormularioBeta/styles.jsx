@@ -3,9 +3,14 @@ import styled from "styled-components";
 export const Container = styled.div`
   text-align: center;
   font-weight: bold;
-  margin: auto;
+  margin: 0px auto 24px;
   margin-bottom: 64px;
   color: #fff;
+  a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 `;
 
 export const LinkWrapper = styled.div`
@@ -15,10 +20,6 @@ export const LinkWrapper = styled.div`
   border-radius: 10px;
   width: 300px;
   margin: auto;
-  a{
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+  text-decoration: none;
 `;
 
