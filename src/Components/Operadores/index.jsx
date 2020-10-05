@@ -9,8 +9,10 @@ const Operadores = () => {
         <Content>
           <h2>Operador</h2>
           <h4>Estatística</h4>
-          <p>Crie sua conta e comece a sua competição contra seu pior adversário...
-            Você... Gere estatísticas de equipe e suas operações</p>
+          <p>
+            Crie sua conta e comece a sua competição contra seu pior
+            adversário... Você... Gere estatísticas de equipe e suas operações
+          </p>
           <h4>Equipamento</h4>
           <p>Cadastre o seu Loadout e compartilhe com seus amigos.</p>
           <h4>Suba seu nível</h4>
@@ -23,10 +25,18 @@ const Operadores = () => {
       <Row className="revertRow">
         <Content>
           <h2>Capitão</h2>
-          <h4>Faça gestão de sua equipe.</h4>
-          <h4>Acompanhe as estatísticas e outros dados de sua equipe.</h4>
-          <h4>Promova ou Rebaixe a patente dos seus operadores.</h4>
-          <h4>Acompanhe o orgânico de sua equipe.</h4>
+          <h4>Reúna seus amigos e crie sua equipe.</h4>
+          <p>
+            Você sempre poderá acompanhar o progresso na seção estatística
+            Visualize sua Equipe em números da forma que você desejar através de
+            aplicação de filtros. Realize a Gestão de sua equipe através da
+            Plataforma.
+          </p>
+          <h4>Prove com números.</h4>
+          <p>
+            Suas estáticas são atualizar ao final de cada operação. Compare seus
+            resultados com seus amigos, a brincadeira chegou a um novo nível.
+          </p>
           <h4>Estatística.</h4>
           <p>Analise de dados.</p>
           <p>Acompanhe a quantidade de operadores, classes, jogos e etc...</p>
@@ -36,7 +46,7 @@ const Operadores = () => {
         </Item>
       </Row>
       <Row>
-        <Content >
+        <Content>
           <h2>Organizador</h2>
           <h4>Gestão de operações</h4>
           <p>Faça sua gestão de operadores pelo app.</p>
@@ -46,21 +56,6 @@ const Operadores = () => {
           <p>Receba antecipado.</p>
           <h4>Finanças</h4>
           <p>Faça sua gestão financeira pelo app.</p>
-        </Content>
-        <Item>
-          <img src={Operador} alt="Imagem Genérica" />
-        </Item>
-      </Row>
-      <Row className="revertRow">
-        <Content>
-          <h2>Operador</h2>
-          <h4>Estatística</h4>
-          <p>Crie sua conta e comece a sua competição contra seu pior adversário...
-            Você... Gere estatísticas de equipe e suas operações</p>
-          <h4>Equipamento</h4>
-          <p>Cadastre o seu Loadout e compartilhe com seus amigos.</p>
-          <h4>Suba seu nível</h4>
-          <p>Conquiste novos níveis evolua em combate.</p>
         </Content>
         <Item>
           <img src={Operador} alt="Imagem Genérica" />

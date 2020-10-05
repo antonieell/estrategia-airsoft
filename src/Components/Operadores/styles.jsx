@@ -21,7 +21,7 @@ export const Row = styled.div`
     content: "";
     position: absolute;
     width: 100%;
-    height: 400px;
+    height: 480px;
     background-color: #056E4E;
   }
   &.revertRow{
