@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Item, Content } from "./styles";
 import Operador from "../../assets/operador.png";
+import Capitao from "../../assets/capitao.png";
+import Generic from "../../assets/operacoes.png";
 
 const Operadores = () => {
   return (
@@ -42,7 +44,7 @@ const Operadores = () => {
           <p>Acompanhe a quantidade de operadores, classes, jogos e etc...</p>
         </Content>
         <Item>
-          <img src={Operador} alt="Imagem Genérica" />
+          <img src={Capitao} alt="Imagem Genérica" />
         </Item>
       </Row>
       <Row>
@@ -58,7 +60,7 @@ const Operadores = () => {
           <p>Faça sua gestão financeira pelo app.</p>
         </Content>
         <Item>
-          <img src={Operador} alt="Imagem Genérica" />
+          <img src={Generic} alt="Imagem Genérica" />
         </Item>
       </Row>
     </Container>

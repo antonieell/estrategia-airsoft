@@ -17,7 +17,7 @@ export const WrapperImages = styled.div`
   justify-content: center;
   img {
     width: 35%;
-    max-width: 650px;
+    max-width: 300px;
     height: auto;
   }
 `;

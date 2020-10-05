@@ -17,6 +17,7 @@ export const Row = styled.div`
   align-items: center;
   justify-content: center;
   margin-bottom: 128px;
+  gap: 32px;
   &::before{
     content: "";
     position: absolute;
