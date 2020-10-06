@@ -17,7 +17,7 @@ export const Container = styled.div`
   }
   img {
     object-fit: cover;
-    object-position: center center;
+    object-position: center 30%;
     width: 100%;
     height: 450px;
   }
