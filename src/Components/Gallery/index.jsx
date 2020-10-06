@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, RowImage, Item, FullImage } from "./styles";
-import DesafieSe from "../../assets/desafie-se.jpg"
+import DesafieSe from "../../assets/desafie-se.png"
 import ConvoqueSeusAmigos from "../../assets/convoqueSeusAmigosGallery.jpg"
-import Desempenho from "../../assets/seuDesempenhoGallery.jpg"
-import Operacoes from '../../assets/porDentroDasOperacoes.jpeg'
+import Desempenho from "../../assets/seuDesempenhoGallery.png"
+import Operacoes from '../../assets/porDentroDasOperacoes.png'
 import ConhecaOperadores from '../../assets/conhecaOperadores.jpeg'
 
 const Gallery = () => {
