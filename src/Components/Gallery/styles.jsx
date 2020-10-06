@@ -29,6 +29,9 @@ export const Item = styled.div`
     max-height: 260px;
     height: 100%;
     object-fit: contain;
+    &:hover{
+      transform: scale(1.05);
+    }
   }
 `;
 
