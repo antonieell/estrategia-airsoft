@@ -8,7 +8,7 @@ export default function Mapa() {
   return (
     <Container>
       <h1>Mapa de Operações</h1>
-      <h2 className="subtitle">Veja operações próximas a sua localização.</h2>
+      <h2 className="subtitle">Pesquise operações da maneira que desejar.</h2>
       <img src={MapaImage} alt="Mapa"/>
       {/*
 <Map twoFingerDrag={true} defaultZoom={12} center={[-23.5489,  -46.6388]} zoom={12}  height={400}>

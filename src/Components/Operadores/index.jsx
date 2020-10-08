@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Item, Content } from "./styles";
 import Operador from "../../assets/operador.png";
 import Capitao from "../../assets/capitao.png";
-import  organizador from "../../assets/organizador.png";
+import organizador from "../../assets/organizador.png";
 
 const Operadores = () => {
   return (
@@ -31,13 +31,16 @@ const Operadores = () => {
           <p>
             Você sempre poderá acompanhar o progresso na seção estatística
             Visualize sua Equipe em números da forma que você desejar através de
-            aplicação de filtros. Realize a Gestão de sua equipe através da
-            Plataforma.
+            aplicação de filtros.
           </p>
+
+          <p> Realize a Gestão de sua equipe através da Plataforma.</p>
           <h4>Prove com números.</h4>
+          <p>Suas estáticas são atualizar ao final de cada operação.</p>
+
           <p>
-            Suas estáticas são atualizar ao final de cada operação. Compare seus
-            resultados com seus amigos, a brincadeira chegou a um novo nível.
+            Compare seus resultados com seus amigos, a brincadeira chegou a um
+            novo nível.
           </p>
         </Content>
         <Item>
