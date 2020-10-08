@@ -39,9 +39,6 @@ const Operadores = () => {
             Suas estáticas são atualizar ao final de cada operação. Compare seus
             resultados com seus amigos, a brincadeira chegou a um novo nível.
           </p>
-          <h4>Estatística.</h4>
-          <p>Analise de dados.</p>
-          <p>Acompanhe a quantidade de operadores, classes, jogos e etc...</p>
         </Content>
         <Item>
           <img src={Capitao} alt="Imagem capitao" />

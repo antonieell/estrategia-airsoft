@@ -6,7 +6,9 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 140px 16px 0px;;
+  padding: 32px;
+  margin: 32px auto;
+  background-color: #383838;
   align-items: center;
   width: 100%;
 `;
@@ -24,10 +26,11 @@ export const WrapperImages = styled.div`
 
 export const IconWrapper = styled.div`
   display: flex;
+  margin-top: 16px;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  div{
+  div {
     margin: 4px;
   }
 `;

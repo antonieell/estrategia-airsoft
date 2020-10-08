@@ -26,10 +26,10 @@ export const Container = styled.div`
 
 export const IconWrapper = styled.div`
   display: flex;
-  gap: 16px;
   align-items: center;
   justify-content: center;
-  @media(max-width: 480px){
+  div{
+    margin-right: 20px;
   }
 `;
 
