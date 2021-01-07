@@ -15,6 +15,9 @@ export const Container = styled.div`
     width: 100%;
     content: "";
     height: 100vh;
+    background: transparent
+      linear-gradient(180deg, #39393900 0%, #333333cc 80%, #1c1c1ce6 100%) 0% 0%
+      no-repeat padding-box;
     display: block;
   }
 `;
@@ -30,7 +33,7 @@ export const Content = styled.div`
   text-align: center;
   height: 100%;
   h2{
-    font-size: 6rem;
+    font-size: 8rem;
     color: #07D697;
   }
   h1{
