@@ -1,36 +1,28 @@
 import React from "react";
-import { Container, RowImage, Item, FullImage } from "./styles";
-import DesafieSe from "../../assets/desafie-se.png"
-import ConvoqueSeusAmigos from "../../assets/convoqueSeusAmigosGallery.jpg"
-import Desempenho from "../../assets/seuDesempenhoGallery.png"
-import Operacoes from '../../assets/porDentroDasOperacoes.png'
-import ConhecaOperadores from '../../assets/conhecaOperadores.jpeg'
+import { Container, GridImage, Item } from "./styles";
+import PhoneRight from "../../assets/rightIphone.png";
 
 const Gallery = () => {
   return (
     <Container>
-      <RowImage>
+      <GridImage>
         <Item>
-          <img src={DesafieSe} alt="Desafie-se" />
-          <p>Desafie-se</p>
+          <p>Receba notificações das operações</p>
+          <img src={PhoneRight} alt="Desafie-se" />
         </Item>
         <Item>
-          <img src={Desempenho} alt="Desempenho" />
-          <p>Acompanhe seu desempenho</p>
+          <p>Pesquisa de operações inteligentes</p>
+          <img src={PhoneRight} alt="Desempenho" />
         </Item>
         <Item>
-          <img src={Operacoes} alt="Operacoes" />
-          <p>Fique por dentro das operações</p>
+          <p>Organize o financeiro da sua equipe</p>
+          <img src={PhoneRight} alt="Operacoes" />
         </Item>
         <Item>
-          <img src={ConvoqueSeusAmigos} alt="Convque Amigos" />
-          <p>Convoque seus amigos</p>
+          <p>Compartilhe o legado de sua equipe</p>
+          <img src={PhoneRight} alt="Convque Amigos" />
         </Item>
-      </RowImage>
-      <FullImage>
-        <img src={ConhecaOperadores} alt="Imagem Genérica" />
-        <p>Conheçam mais operadores</p>
-      </FullImage>
+      </GridImage>
     </Container>
   );
 };

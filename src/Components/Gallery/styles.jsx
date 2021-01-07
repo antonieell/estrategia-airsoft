@@ -3,52 +3,44 @@ import styled from "styled-components";
 export const Container = styled.section`
   display: block;
   margin: auto;
-  padding: 140px 16px;
+  padding: 32px 0px;
   align-items: center;
   width: 100%;
   min-width: 300px;
   p {
     font-weight: bold;
   }
+  @media (max-width: 790px) {
+    padding: 16px 0px;
+  }
 `;
 
-export const RowImage = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1 1 0;
-  align-items: flex-start;
-  justify-content: center;
+export const GridImage = styled.div`
+  display: grid;
+  margin: auto;
+  gap: 16px;
+  max-width: clamp(900px, 70vw, 1200px);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  @media (max-width: 780px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
 `;
 
 export const Item = styled.div`
-  transform: scale(0.9);
-  width: max(288px, 25%);
   text-align: center;
+  background-color: #0e0e0e;
+  padding: 16px 32px;
+  color: #0fa;
+  border-radius: 16px;
+  &:hover {
+    background-color: #000;
+  }
   img {
     width: 100%;
-    max-height: 260px;
-    height: 100%;
+    max-width: 200px;
     object-fit: contain;
-    &:hover{
-      transform: scale(1.05);
-    }
   }
 `;
 
-export const FullImage = styled.div`
-  text-align: center;
-  width: max(288px, 100%);
-  p {
-    font-weight: bold;
-    font-size: 1.8rem;
-  }
-  img {
-    height: 100%;
-    min-height: 185px;
-    max-height: 400px;
-    width: 70%;
-    min-width: 288px;
-    object-fit: cover;
-    object-position: 0% 30%;
-  }
-`;
