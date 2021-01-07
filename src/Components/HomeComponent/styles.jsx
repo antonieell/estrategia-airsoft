@@ -4,9 +4,8 @@ import Background from "../../assets/fullScreenImage.png";
 export const Container = styled.div`
   height: 100vh;
   background-image: url(${Background});
-  background-image: url(/static/media/fullScreenImage.bf22b420.png);
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   pointer-events: none;
   &::after {
@@ -16,9 +15,6 @@ export const Container = styled.div`
     width: 100%;
     content: "";
     height: 100vh;
-    background: transparent
-      linear-gradient(180deg, #39393900 0%, #333333cc 80%, #1c1c1ce6 100%) 0% 0%
-      no-repeat padding-box;
     display: block;
   }
 `;
