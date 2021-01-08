@@ -8,6 +8,7 @@ import BaixeAgora from "../Components/BaixeAgora";
 import Footer from "../Components/Footer";
 import FormularioBeta from "../Components/FormularioBeta";
 import Mapa from "../Components/Mapa";
+import Atribuicoes from "../Components/Atribuicoes";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <HomeComponent />
       <Sobre />
       <Phones />
+      <Atribuicoes/>
       <FormularioBeta />
       <Gallery />
       <Operadores />
