@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   text-align: center;
   font-weight: bold;
-  margin: 0px auto 24px;
-  margin-bottom: 64px;
+  margin: 24px auto;
   color: #fff;
   a{
     color: black;

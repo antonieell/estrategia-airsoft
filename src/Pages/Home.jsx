@@ -15,6 +15,7 @@ const Home = () => {
       <HomeComponent />
       <Sobre />
       <Phones />
+      <FormularioBeta />
       <Gallery />
       <Operadores />
       <Mapa />
