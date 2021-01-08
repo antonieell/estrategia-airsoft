@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "./styles";
 import { FaGooglePlay, FaApple } from "react-icons/fa";
+import {BiDesktop} from "react-icons/bi";
 
 export const GooglePlay= ({stroke}) => {
   return (
@@ -20,6 +21,17 @@ export const AppleStore= ({stroke}) => {
       <div>
         <p>Em breve na</p>
         <p>AppStore</p>
+      </div>
+    </Container>
+  );
+}
+export const DesktopStore= ({stroke}) => {
+  return (
+    <Container stroke={stroke}>
+      <BiDesktop/>
+      <div>
+        <p>Em breve para</p>
+        <p>Desktop</p>
       </div>
     </Container>
   );

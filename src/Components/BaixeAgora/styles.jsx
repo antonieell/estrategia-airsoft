@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 8px 16px;
-  width: 80%;
+  width: 90%;
   min-height: 80px;
   background-color: #07d697;
   font-weight: bold;
@@ -28,8 +28,6 @@ export const IconWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  div{
-    margin-right: 20px;
-  }
+  gap: 16px
 `;
 
