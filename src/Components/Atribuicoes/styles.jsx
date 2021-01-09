@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import bg from "../../assets/atribuicoesBg.jpg";
 
 export const Container = styled.section`
   display: block;
@@ -7,6 +8,10 @@ export const Container = styled.section`
   align-items: center;
   width: 100%;
   min-width: 300px;
+  background-image: url(${bg});
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
   p {
     font-weight: bold;
   }
