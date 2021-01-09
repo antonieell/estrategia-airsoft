@@ -3,7 +3,6 @@ import HomeComponent from "../Components/HomeComponent";
 import Sobre from "../Components/Sobre";
 import Phones from "../Components/Phones";
 import Gallery from "../Components/Gallery";
-import Operadores from "../Components/Operadores";
 import BaixeAgora from "../Components/BaixeAgora";
 import Footer from "../Components/Footer";
 import FormularioBeta from "../Components/FormularioBeta";
@@ -19,7 +18,6 @@ const Home = () => {
       <Atribuicoes/>
       <FormularioBeta />
       <Gallery />
-      <Operadores />
       <Mapa />
       <BaixeAgora />
       <FormularioBeta />

@@ -1,8 +1,12 @@
 import styled from "styled-components";
-//import Background from "../../assets/fullScreenImage.png";
+import bg from "../../assets/sobreBg.jpg"
 
 export const Container = styled.div`
   //background-image: url();
+  background-image: url(${bg});
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
 `;
 
 export const Content = styled.div`

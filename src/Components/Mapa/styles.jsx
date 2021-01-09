@@ -6,20 +6,10 @@ export const Container = styled.div`
   margin: auto;
   margin-bottom: 64px;
   color: #fff;
-  h1 {
-  background-color: #07d697;
-    font-size: 6rem;
-  }
-  h2 {
-  background-color: #07d697;
-    padding-bottom: 16px;
-    color: #313131;
-  }
   img {
     object-fit: cover;
     object-position: center 30%;
     width: 100%;
-    height: 450px;
   }
 `;
 
