@@ -8,6 +8,7 @@ import Footer from "../Components/Footer";
 import FormularioBeta from "../Components/FormularioBeta";
 import Mapa from "../Components/Mapa";
 import Atribuicoes from "../Components/Atribuicoes";
+import ModalidadesERegras from "../Components/ModalidadesERegras";
 
 const Home = () => {
   return (
@@ -15,9 +16,10 @@ const Home = () => {
       <HomeComponent />
       <Sobre />
       <Phones />
-      <Atribuicoes/>
+      <Atribuicoes />
       <FormularioBeta />
       <Gallery />
+      <ModalidadesERegras />
       <Mapa />
       <BaixeAgora />
       <FormularioBeta />
