@@ -25,9 +25,16 @@ export const Container = styled.div`
 `;
 
 export const IconWrapper = styled.div`
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px
+  gap: 16px;
+
+  @media (max-width: 500px){
+    div  svg {
+      display: none;
+    }
+  }
 `;
 

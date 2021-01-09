@@ -27,11 +27,14 @@ export const WrapperImages = styled.div`
 export const IconWrapper = styled.div`
   display: flex;
   margin-top: 16px;
+  width: 100%;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  div {
-    margin: 4px;
+  @media (max-width:500px){
+    div svg {
+      display: none;
+    }
   }
 `;
 
