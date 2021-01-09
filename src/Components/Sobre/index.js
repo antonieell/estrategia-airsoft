@@ -7,20 +7,25 @@ const Sobre = () => {
       <Content>
         <h1>ESTRATÉGIA AIRSOFT</h1>
         <h2>
-          Estratégia Airsoft é um aplicativo para comunidade de operadores de
-          Airsoft.
+          Estratégia Airsoft é um Plataforma para Comunidade de Praticantes do
+          Esporte.
         </h2>
         <p>
-          Plataforma criada Pensando nas necessidades dos usuários em todos os
-          níveis.
+          Aplicativo gratuito, criado com objetivo de unir os operadores. focado
+          nas necessidades dos usuários em todos os níveis, permeando pelos
+          operadores, capitães até organizadores de eventos.
         </p>
         <p>Ferramenta de acompanhamento, Gestão e Disseminação</p>
         <p>
-          Seguimos empenhado na missão, em breve nosso beta estará online.
-          <br />
-          Nos Ajude, sua opnião é fundamental para nosso sucesso.
+          Permite aos usuários se socializar, acompanhar suas estatísticas,
+          planejar seus eventos, realizar gestão e favorecer na disseminação do
+          esporte.
         </p>
-        <p>Participe da nossa pesquisa e participe da versão beta.</p>
+        <p>
+          Seguimos empenhado na missão, em breve nosso beta estará disponível.
+          Nos ajude, sua opinião é fundamental para nosso sucesso. Preencha
+          nossa pesquisa e concorra para testar a versão beta.
+        </p>
       </Content>
     </Container>
   );
