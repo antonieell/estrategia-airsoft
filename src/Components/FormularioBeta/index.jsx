@@ -6,7 +6,7 @@ export default function FormularioBeta({title = titleDefault}) {
   return (
     <Container>
       <h1>{title}</h1>
-      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SA9WjRUQU5PQTMyRTBSVzRWVFhOTU5CVkZZQlI5OC4u">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeBpKHlvXMyKNu_nXkzRwC58IHoLjbE8j_Hm1I93gZCm7Y7g/viewform?usp=sf_link">
         <LinkWrapper>
           <span>Preencha o formulário</span>
         </LinkWrapper>

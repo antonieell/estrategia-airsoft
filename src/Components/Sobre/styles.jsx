@@ -32,13 +32,9 @@ export const Content = styled.div`
     color: #848484;
     margin: 4px 0;
   }
-  @media (min-width: 790px){
+  @media (min-width: 790px) {
     max-width: 1200px;
     width: 50%;
     margin: 0 auto;
-    > * {
-      width: 75%;
-
-    }
   }
 `;
