@@ -32,9 +32,7 @@ export const IconWrapper = styled.div`
   gap: 16px;
 
   @media (max-width: 500px){
-    div  svg {
-      display: none;
-    }
+    gap: 4px;
   }
 `;
 

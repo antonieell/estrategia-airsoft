@@ -31,10 +31,8 @@ export const IconWrapper = styled.div`
   justify-content: center;
   align-items: center;
   gap: 16px;
-  @media (max-width:500px){
-    div svg {
-      display: none;
-    }
+  @media (max-width: 500px) {
+    gap: 4px;
   }
 `;
 

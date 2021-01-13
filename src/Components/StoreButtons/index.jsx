@@ -30,8 +30,8 @@ export const DesktopStore= ({stroke}) => {
     <Container stroke={stroke}>
       <BiDesktop/>
       <div>
-        <p>Em breve para</p>
-        <p>Desktop</p>
+        <p>Em breve</p>
+        <p>para Desktop</p>
       </div>
     </Container>
   );
