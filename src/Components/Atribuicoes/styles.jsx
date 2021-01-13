@@ -34,6 +34,9 @@ export const Item = styled.div`
   text-align: center;
   padding: 16px 32px;
   color: white;
+  img {
+    max-height: 200px;
+  }
   ul {
     text-align: left;
     width: 70%;
