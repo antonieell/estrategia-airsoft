@@ -17,7 +17,7 @@ const Home = () => {
       <Sobre />
       <Phones />
       <Atribuicoes />
-      <FormularioBeta />
+      <FormularioBeta title="Nos ajude a criarmos nossa plataforma" />
       <Gallery />
       <ModalidadesERegras />
       <Mapa />

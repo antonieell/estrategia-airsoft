@@ -1,17 +1,15 @@
 import React from "react";
 import { Container, GridImage, Item } from "./styles";
-import PhoneRight from "../../assets/rightIphone.png";
 import Operador from "../../assets/operador.svg";
 import Capitao from "../../assets/capitao.svg";
 import Organizador from "../../assets/organizador.svg";
-import { FaDeskpro } from "react-icons/fa";
 
 const Atribuicoes = () => {
   return (
     <Container>
       <GridImage>
         <Item>
-          <img src={Operador}/>
+          <img src={Operador} alt="Operador"/>
           <h1>Operador</h1>
           <ul>
             <li>
@@ -25,7 +23,7 @@ const Atribuicoes = () => {
           </ul>
         </Item>
         <Item>
-          <img src={Capitao}/>
+          <img src={Capitao} alt="Capitão"/>
           <h1>Capitão</h1>
           <ul>
             <li>Reúna seus amigos, crie sua equipe</li>
@@ -39,7 +37,7 @@ const Atribuicoes = () => {
           </ul>
         </Item>
         <Item>
-          <img src={Organizador}/>
+          <img src={Organizador} alt="Organizador"/>
           <h1>Organizador</h1>
           <ul>
             <li>Crie seus eventos pela plataforma</li>
