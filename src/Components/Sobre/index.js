@@ -7,7 +7,7 @@ const Sobre = () => {
       <Content>
         <h1>ESTRATÉGIA AIRSOFT</h1>
         <h2>
-          Estratégia Airsoft é um Plataforma para Comunidade de Praticantes do
+          Estratégia Airsoft é uma Plataforma para Comunidade de Praticantes do
           Esporte.
         </h2>
         <p>
