@@ -34,6 +34,7 @@ export const Item = styled.div`
   padding: 16px 32px;
   color: #0fa;
   border-radius: 16px;
+  font-size: 24px;
   &:hover {
     background-color: #000;
   }

@@ -28,7 +28,7 @@ const Atribuicoes = () => {
           <ul>
             <li>Reúna seus amigos, crie sua equipe</li>
             <li>
-              Aceite, recuese, promova e rebaixe seus subordinados, gerencie de
+              Aceite,recuse, promova e rebaixe seus subordinados, gerencie de
               uma forma mais simples
             </li>
             <li>Visualize de forma inteligente o efetivo de sua equipe</li>
@@ -42,7 +42,7 @@ const Atribuicoes = () => {
           <ul>
             <li>Crie seus eventos pela plataforma</li>
             <li>
-              Divulgue suas opreações através das principais mídias digitais
+              Divulgue suas operações através das principais mídias digitais
             </li>
             <li>Receba o FeedBack dos operadores ao final de cada evento</li>
             <li>
